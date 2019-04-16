@@ -115,3 +115,14 @@
     
     
 }
+
+#student-profile-city {
+    float: right;
+}
+
+#std-profile-city {
+    width: 55%;
+    height: 30%;
+    float: left;   
+
+}

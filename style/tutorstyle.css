@@ -2,20 +2,22 @@
     
     
     width: 100%;
-    height: 900px;
+    height: 100%;
     margin: 20px;
+    float: right;
    
 }
 
 .middle-column {
-    
     width: 75%;
     border-radius: 50px;
     padding: 10px;
     box-shadow:0 1px 15px; 
-    height: 100%;
+    height: 900px;;
     margin: 0 auto;
-    
+    text-align: justify;
+
+
 }
 
 #profile-pic {
@@ -51,7 +53,8 @@
    
     width: 100%;
     height: 50%;
-    float: right;
+    float: left;
+
     
 }
 
@@ -84,9 +87,10 @@
 /*profile menu*/
 
 #profile-menu {
+    float: right;
     width: 100%;
     height: 400px;
-    float: right;
+
    
 }
 
@@ -95,7 +99,11 @@
     height: 100%;   
     margin: 0 auto;
     padding: 30px;
-    margin-top: 60px
+    margin-top: 60px;
+    float: left;
+    margin-left: 210px;
+    
+
     
 }
 
@@ -104,11 +112,12 @@
     height: 100%;   
     margin: 0 auto;
     padding: 30px;
+
     
 }
 
 #menu-p {
-    font-size: 40px;
+    font-size: 20px;
     text-align: center;
     padding: 10px;
     box-shadow:0 1px 15px;
@@ -125,4 +134,26 @@
     height: 30%;
     float: left;   
 
+}
+
+#table-result {
+
+    width: 100%;
+    height: 400px;
+
+    padding: 8px;
+    
+   
+}
+
+#prof-group-icons {
+    width: 60%;
+    height: 500px;   
+    margin: 0 auto;
+    padding: 30px;
+    float: left;
+ 
+    margin-top: 15px;
+    margin-left: 210px
+    
 }
